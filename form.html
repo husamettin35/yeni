@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formlar</h1>
+
+    <form action="result.html" method="get">
+    <form action="./result.html" method="get">
+
+        <!-- label ve tex input kullanımı -->
+        <div>
+            <label for="name">isim:</label>
+            <input type="text" id="name" name="Kullanıcı Adı">
+            <input type="text" id="name" name="Kullanıcı Adı" required placeholder="Lütfen adınızı giriniz">
+            <br>
+            <label for="lastname">Soyad:</label>
+            <input type="text" id="lastname" name="Kullanıcı Soyadı">
+            <input type="text" id="lastname" name="Kullanıcı Soyadı" placeholder="Lütfen soyadınız girin">
+        </div>
+
+        <!-- password -->
+        <div>
+            <label for="password">Şifre:</label>
+            <input type="password" name="Şifre" id="password">
+            <input type="password" name="Şifre" id="password" placeholder="şifre girin" required>
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" placeholder="email girin">
+        </div>
